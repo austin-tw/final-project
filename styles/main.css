@@ -1,0 +1,259 @@
+/* ================= Buttons ==========================*/
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button:focus {
+  background-color: #A1CD49;
+  color: white;
+}
+button:hover {
+  background-color: #A1CD49;
+  color: white;
+}
+/* ================= Nav ==========================*/
+nav {
+  background-color: #B1692F;
+  padding: 0.75rem 0rem;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav ul li a:hover {
+  background-color: #A1CD49;
+}
+
+.current {
+  background-color: #A1CD49;
+}
+/* ================= Hero ==========================*/
+.hero-boxes {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/hero2.jpg);
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* ================= Content ==========================*/
+.content-container {
+    background-color: #E4E0CC;
+    padding: 1em ;
+    text-align: center;
+}
+.content-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conpic { 
+  padding: 1em ;
+}
+
+@media screen and (max-width: 768px) {
+  .content-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* ================= Global ==========================*/
+/* Section Header Content */
+.header-container {
+  background-color: #B1692F;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Sections */
+.container {
+  background-color: #B1692F;
+
+  padding: 1.5rem;
+  position: relative;
+}
+
+/* Option header */
+.option-container {
+  text-align: center;
+  background-color: #EEEEEE;
+  padding: 3rem 1rem;
+}
+.header{
+  color:#B11030;
+}
+
+.card {
+  background-color: #E4E0CC;
+  border-radius: 0.25rem;
+  box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+  width: 100%;
+}
+
+.card-container {
+  display: grid;
+  gap: 20px;
+} 
+
+img {
+  border-bottom: 0.25rem solid #A1CD49;
+  border-radius: 0.25rem 0.25rem 0 0;
+  height: auto;
+  width: 100%;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.header,
+.subheader {
+  margin: 0;
+}
+/* ================= Cards ==========================*/
+/* Mobile (max-width: 768px): 1 × 9 (full width cards) */
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    grid-template-columns: auto;
+    } 
+}
+/* Tablet (min-width: 768px): 2 × 4 (50% width cards, last card is full width) */
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .card-container {
+    grid-template-columns: auto auto;
+    } 
+
+ .card:last-child {
+  width: 200%;
+}
+}
+/* Desktop (min-width: 1200px): 3 × 3 (33% width cards) */
+@media screen and (min-width: 1200px) {
+  .card-container {
+    grid-template-columns: auto auto auto;
+    } 
+} 
+/* ================= Youtube ==========================*/
+.YT {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9
+}
+.YT iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ================= Accordion ==========================*/
+.accordion-container {
+}
+.accordion-boxes {
+  display: flex;
+  flex-direction: column;
+  padding: 1em ;
+  justify-content: center;
+  align-items: center;
+  background-color: #B1692F;
+  }
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: solid #E4E0CC;
+  transition: 0.4s;
+  font-weight: bold;
+  }
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #E4E0CC;
+  display: none;
+  overflow: hidden;
+}
+.accordion:after {
+  content: "\f078";
+  font-family: 'FontAwesome';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\f077";
+}
+/* ================= Footer ==========================*/
+.footer-container {
+  padding: 1em ;
+  background-color: #E4E0CC;
+  height: auto;
+  position: relative;
+}
+.footer-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  }
+.gmap {
+  padding-bottom: 40%;
+  position: relative;
+}
+.gmap iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+#navlist li {
+font-size:1.7rem;
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
