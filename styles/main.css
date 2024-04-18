@@ -11,11 +11,11 @@ button {
   border-radius: 10px;
 }
 button:focus {
-  background-color: #82B8D9;
+  background-color: #4F9AC9;
   color: white;
 }
 button:hover {
-  background-color: #82B8D9;
+  background-color: #4F9AC9;
   color: white;
 }
 /* ================= Nav ==========================*/
@@ -35,17 +35,17 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   padding: 1rem 2rem;
 }
 
 nav ul li a:hover {
-  background-color: #82B8D9;
+  background-color: #4F9AC9;
 }
 
 .current {
-  background-color: #82B8D9;
+  background-color: #4F9AC9;
 }
 /* ================= Hero ==========================*/
 .hero-boxes {
@@ -130,7 +130,7 @@ nav ul li a:hover {
 } 
 
 img {
-  border-bottom: 0.25rem solid #82B8D9;
+  border-bottom: 0.25rem solid #4F9AC9;
   border-radius: 0.25rem 0.25rem 0 0;
   height: auto;
   width: 100%;
