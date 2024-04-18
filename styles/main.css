@@ -11,16 +11,16 @@ button {
   border-radius: 10px;
 }
 button:focus {
-  background-color: #4F9AC9;
+  background-color: #e29578;
   color: white;
 }
 button:hover {
-  background-color: #4F9AC9;
+  background-color: #e29578;
   color: white;
 }
 /* ================= Nav ==========================*/
 nav {
-  background-color: #BF7B3F;
+  background-color: #83c5be;
   padding: 0.75rem 0rem;
   font-size: 2rem;
 }
@@ -35,17 +35,17 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   padding: 1rem 2rem;
 }
 
 nav ul li a:hover {
-  background-color: #4F9AC9;
+  background-color: #e29578;
 }
 
 .current {
-  background-color: #4F9AC9;
+  background-color: #e29578;
 }
 /* ================= Hero ==========================*/
 .hero-boxes {
@@ -68,7 +68,7 @@ nav ul li a:hover {
 }
 /* ================= Content ==========================*/
 .content-container {
-    background-color: #F2EBC4;
+    background-color: #edf6f9;
     padding: 1em ;
     text-align: center;
 }
@@ -94,14 +94,14 @@ nav ul li a:hover {
 /* ================= Global ==========================*/
 /* Section Header Content */
 .header-container {
-  background-color: #BF7B3F;
+  background-color: #83c5be;
   text-align: center;
   padding: 1rem;
 }
 
 /* Sections */
 .container {
-  background-color: #BF7B3F;
+  background-color: #83c5be;
 
   padding: 1.5rem;
   position: relative;
@@ -118,7 +118,7 @@ nav ul li a:hover {
 }
 
 .card {
-  background-color: #F2EBC4;
+  background-color: #edf6f9;
   border-radius: 0.25rem;
   box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
   width: 100%;
@@ -130,7 +130,7 @@ nav ul li a:hover {
 } 
 
 img {
-  border-bottom: 0.25rem solid #4F9AC9;
+  border-bottom: 0.25rem solid #e29578;
   border-radius: 0.25rem 0.25rem 0 0;
   height: auto;
   width: 100%;
@@ -191,18 +191,18 @@ img {
   padding: 1em ;
   justify-content: center;
   align-items: center;
-  background-color: #BF7B3F;
+  background-color: #83c5be;
   }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
+  background-color: #ffddd2;
   color: #444;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: center;
   border: none;
-  outline: solid #F2EBC4;
+  outline: solid #edf6f9;
   transition: 0.4s;
   font-weight: bold;
   }
@@ -213,7 +213,7 @@ img {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: #F2EBC4;
+  background-color: #edf6f9;
   display: none;
   overflow: hidden;
 }
@@ -231,7 +231,7 @@ img {
 /* ================= Footer ==========================*/
 .footer-container {
   padding: 1em ;
-  background-color: #F2EBC4;
+  background-color: #edf6f9;
   height: auto;
   position: relative;
 }
