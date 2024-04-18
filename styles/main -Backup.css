@@ -11,16 +11,16 @@ button {
   border-radius: 10px;
 }
 button:focus {
-  background-color: #82B8D9;
+  background-color: #A1CD49;
   color: white;
 }
 button:hover {
-  background-color: #82B8D9;
+  background-color: #A1CD49;
   color: white;
 }
 /* ================= Nav ==========================*/
 nav {
-  background-color: #BF7B3F;
+  background-color: #B1692F;
   padding: 0.75rem 0rem;
   font-size: 2rem;
 }
@@ -41,11 +41,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #82B8D9;
+  background-color: #A1CD49;
 }
 
 .current {
-  background-color: #82B8D9;
+  background-color: #A1CD49;
 }
 /* ================= Hero ==========================*/
 .hero-boxes {
@@ -68,7 +68,7 @@ nav ul li a:hover {
 }
 /* ================= Content ==========================*/
 .content-container {
-    background-color: #F2EBC4;
+    background-color: #E4E0CC;
     padding: 1em ;
     text-align: center;
 }
@@ -94,14 +94,14 @@ nav ul li a:hover {
 /* ================= Global ==========================*/
 /* Section Header Content */
 .header-container {
-  background-color: #BF7B3F;
+  background-color: #B1692F;
   text-align: center;
   padding: 1rem;
 }
 
 /* Sections */
 .container {
-  background-color: #BF7B3F;
+  background-color: #B1692F;
 
   padding: 1.5rem;
   position: relative;
@@ -118,7 +118,7 @@ nav ul li a:hover {
 }
 
 .card {
-  background-color: #F2EBC4;
+  background-color: #E4E0CC;
   border-radius: 0.25rem;
   box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
   width: 100%;
@@ -130,7 +130,7 @@ nav ul li a:hover {
 } 
 
 img {
-  border-bottom: 0.25rem solid #82B8D9;
+  border-bottom: 0.25rem solid #A1CD49;
   border-radius: 0.25rem 0.25rem 0 0;
   height: auto;
   width: 100%;
@@ -191,7 +191,7 @@ img {
   padding: 1em ;
   justify-content: center;
   align-items: center;
-  background-color: #BF7B3F;
+  background-color: #B1692F;
   }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -202,7 +202,7 @@ img {
   width: 100%;
   text-align: center;
   border: none;
-  outline: solid #F2EBC4;
+  outline: solid #E4E0CC;
   transition: 0.4s;
   font-weight: bold;
   }
@@ -213,7 +213,7 @@ img {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: #F2EBC4;
+  background-color: #E4E0CC;
   display: none;
   overflow: hidden;
 }
@@ -231,7 +231,7 @@ img {
 /* ================= Footer ==========================*/
 .footer-container {
   padding: 1em ;
-  background-color: #F2EBC4;
+  background-color: #E4E0CC;
   height: auto;
   position: relative;
 }
